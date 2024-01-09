@@ -45,11 +45,11 @@
                 <div class="nav-menu">
                     <nav class="mainmenu mobile-menu">
                         <ul>
-                            <li><a href="./index.html">Главная</a></li>
-                            <li><a href="./playbooks.html">Персонажи</a></li>
-                            <li class="active"><a href="./moves.html">Ходы</a></li>
-                            <li><a href="./tables_custom.html">Таблицы</a></li>
-                            <li><a href="./gallery.html">Галерея</a></li>
+                            <li><a href="./index.html"><div id="ind0">Главная</div></a></li>
+                            <li><a href="./playbooks.html"><div id="plb0">Персонажи</div></a></li>
+                            <li class="active"><a href="./moves.html"><div id="mvs0">Ходы</div></a></li>
+                            <li><a href="./tables_custom.html"><div id="tbl0">Таблицы</div></a></li>
+                            <li><a href="./gallery.html"><div id="glr0">Галерея</div></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -97,26 +97,26 @@
     <!-- Feature Section Begin -->
     <section class="feature-section">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" name="sct_smv">
                 <div class="col-md-4">
                     <div class="feature-item set-bg" data-setbg="img/feature/feature-1.jpg">
                         <h3>Основные ходы</h3>
                         <p>Буклет с базовыми ходами, доступными для<br /> всех персонажей</p>
-                        <a href="img/booklet/png/BASIC_MOVES.png" target="_blank" class="primary-btn f-btn">Посмотреть</a>
+                        <a href="img/booklet/png/BASIC_MOVES.png" target="_blank" class="primary-btn f-btn" id="mvs1">Посмотреть</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-item set-bg" data-setbg="img/feature/feature-2.jpg">
                         <h3>"Humanity Harm"</h3>
                         <p>Ход-триггер, не включенный в буклет<br /> с базовыми ходами</p>
-                        <a href="img/booklet/png/HUMANITY_HARM.png" target="_blank" class="primary-btn f-btn">Посмотреть</a>
+                        <a href="img/booklet/png/HUMANITY_HARM.png" target="_blank" class="primary-btn f-btn" id="mvs2">Посмотреть</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-item set-bg" data-setbg="img/feature/feature-3.jpg">
                         <h3>Буклет сеттинга</h3>
                         <p>Помощь с генерацией мира игры для<br /> "нулевой сессии"</p>
-                        <a href="img/booklet/png/SETTING_PLAYBOOK.png" target="_blank" class="primary-btn f-btn">Посмотреть</a>
+                        <a href="img/booklet/png/SETTING_PLAYBOOK.png" target="_blank" class="primary-btn f-btn" id="mvs3">Посмотреть</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,9 @@
                     <div class="about-text">
                         <h2>Download</h2>
                         <p class="long-details">Здесь можно скачать весь набор буклетов ходов <br>и сеттинга в формате pdf.</p>
-                        <a href="/theveil/veil_moves.pdf" download><img src="img/button.png" alt=""></a>
+                        <a href="/theveil/veil_moves.pdf" download name="dwn1">
+                            <img src="img/button.png" alt="Скачать буклеты">
+                        </a>
                     </div>
                 </div>
                 <!--<div class="col-lg-6">
@@ -155,7 +157,7 @@
                         <div class="f-logo">
                             <a><img src="img/logo.png" alt=""></a>
                         </div>
-                        <p>Последнее обновление: 30.12.23</p>
+                        <p>Последнее обновление: 08.01.24</p>
                     </div>
                     <a href="#" class="primary-btn cta-btn">наверх</a>
                 </div>

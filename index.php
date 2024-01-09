@@ -18,22 +18,26 @@
 
 <div class="container">
 	<div class="row title">
-	<div class="col-12">
+		<div class="col-12">
 			<br><br>
-<p style="color: #fff; font-size: 35px;">ПРЕДУПРЕЖДЕНИЕ</p>
-				<div class="line"></div>
-										<br>
-<p style="color: #fff; font-size: 20px;">Данный сайт является небольшим справочным ресурсом для личного использования по настольной ролевой игре the Veil (авторы: Фрейзер и Кайл Симмонс). Сайт ничего не пропогандирует и не распространяет. Публиковать ссылку на текущий домен, поддомены и страницы на домене или поддомене в любом другом ресурсе строго воспрещается.</p>
-				<!--<img src="assets/img/disclaimer.png">-->
-
+			<div class="attention">
+				<p id="at1" style="color: #fff; font-size: 35px;">ПРЕДУПРЕЖДЕНИЕ</p>
+			</div>
 			<div class="line"></div>
+			<div class="att-text">
+				<br>
+<p id="at2" style="color: #fff; font-size: 20px;">Данный сайт является небольшим справочным ресурсом для личного использования по настольной ролевой игре the Veil (авторы: Фрейзер и Кайл Симмонс). Сайт ничего не пропогандирует и не распространяет. Публиковать ссылку на текущий домен, поддомены и страницы на домене или поддомене в любом другом ресурсе строго воспрещается.</p>
+			</div>
+<!--<img src="assets/img/disclaimer.png">-->
+			<div class="line"></div>
+			<div class="button">
 				<br>
 				<a href="theveil">
-					<img src="assets/img/button.png">
+					<img class="opbut" src="assets/img/button.png">
 				</a>
-				
-</div>
-</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 
